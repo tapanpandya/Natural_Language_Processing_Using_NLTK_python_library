@@ -1,19 +1,19 @@
-##Text data
+## Text data
 
 1.  Student Engineer  Engineer
 2.  Engineer Student 
 3. 	         Student
 4.  Student	          Student
 
-*Term Frequency(TF) = number of each word present in a sentence divide by total number of words in a sentence.
+# Term Frequency(TF) = number of each word present in a sentence divide by total number of words in a sentence.
 
-*TF = Number of occurences for a word in a sentence / total number of words in a sentence.
+# TF = Number of occurences for a word in a sentence / total number of words in a sentence.
 
-	      Sentence 1  Sentence 2  Sentence 3  Sentence 4
-Student     1/3		      1/2	        1/1		    2/2
-Engineer    2/3		      1/2	        0		      0
+	Sentence 1  Sentence 2  Sentence 3  Sentence 4
+Student	  1/3		1/2	   1/1		2/2
+Engineer  2/3		1/2	   0		0
 
-Inverse Document Frequency(IDF) = number sentences/number of sentences containing word
+# Inverse Document Frequency(IDF) = number sentences/number of sentences containing word
 
 Words	  IDF(Occurences)
 Student     Log(4/5)
