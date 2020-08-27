@@ -1,9 +1,9 @@
 ## Text data
 
-Student	Engineer	Engineer
-Engineer	Student 
-	Student
-Student		Student
+-Student	Engineer	Engineer
+-Engineer	Student 
+-	Student
+-Student		Student
 
 # Term Frequency(TF) = number of each word present in a sentence divide by total number of words in a sentence.
 
