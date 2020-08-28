@@ -71,7 +71,7 @@ for i in range(len(corpus)):
 # a particular word.
 
 # Not recommended for huge dataset and it only give you number of occurances which is not sufficient to come to conclusion.
-
+# So, we have used TfidfVectorizer for vectorizing the text to number for better understanding of machine learning model.
 cv = TfidfVectorizer(max_features=1500)
 X = cv.fit_transform(corpus).toarray()
 
