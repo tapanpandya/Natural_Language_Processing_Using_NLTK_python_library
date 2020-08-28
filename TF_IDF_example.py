@@ -18,6 +18,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # nltk.download('stopwords')
 # nltk.download('wordnet')
 
+# Below text data was taken from following link.
+# https://www.cnn.com/2020/08/27/tech/okta-permanent-remote/index.html
+
 data = """  Workplace software company Okta said Thursday it plans to let most of its employees work remotely on a permanent basis, becoming the latest Silicon Valley company to adopt sweeping office policy changes amid the pandemic — and in the face of shifting US immigration policy.
 Okta, which provides worker-login software to nearly 9,000 organizations including JetBlue, Nordstrom and Slack, said as much as 85% of its workforce is expected to work remotely under the new policy, up from 30% before the coronavirus crisis. The company has roughly 2,600 employees.
 The decision highlights how US businesses are increasingly bracing for a long pandemic. Google has extended its remote work policies until at least July 2021. Earlier this week, Airbnb said it will allow its employees to work remotely through next August, even if their local offices have reopened.
